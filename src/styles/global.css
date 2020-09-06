@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #1c1c1c;
+}
+
+.coming-soon-card {
+    display: flex;
+    border-radius: 10px;
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 0 5px 2px rgb(71, 71, 71);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #d4d4d4;
+}
